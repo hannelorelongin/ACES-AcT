@@ -1,0 +1,4 @@
+*-checkpoint.ipynb
+*-checkpoint.tsv
+/pipeline/1_search/a_input/protein_overview/*_protein_overview.tsv
+/pipeline/1_search/a_input/protein_overview/*_input_search.tsv
