@@ -6,16 +6,25 @@ This code was actively developed on GitLab, and the GitHub track record only cor
 
 # Table of contents
 
-1.  [Outline of the repository](#outline)
-2.  [Data availability](#data)
-3.  [System requirements](#system-requirements)
+1.  [Outline of the repository](#outline-of-the-repository)
+2.  [Data availability](#data-availability)
+3.  [System requirements](#system-requirements-&-dependencies)
 4.  [Contact](#contact)
 5.  [References](#references)
 6.  [License](#license)
 
 ## Outline of the repository
 
-(include detailed description of folder structure here)
+* associated_data
+    * virushostdb_host_pseudomonas_25feb2024 : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
+* pipeline
+    * 1_search : describes the code related to the search for phage_encoded acetyltransferases
+        * a_input & Code_search_input.ipynb : describes the process of retrieving input data related to the search for phage_encoded acetyltransferases
+            * protein_overview
+                * protein_overview.tsv : a tab-seperated aggregated overview of the NCBI proteins for all phages
+                * annotated_acetyltransferases_overview.tsv :  tab-seperated overview of the NCBI and UniProt proteins of our phages that contain 'GNAT' and/or 'acetyltransferase' in their protein name
+                * input_search.tsv : a tab-seperated aggregated overview of the NCBI proteins that are unannotated and within the expected size range of acetyltransferases for all phages   
+            * phage_data.tsv :  a tab-seperated phage-centric overview of the virus & host taxonomic information from the Virus-Host database   
 
 ## Data availability
 
@@ -34,7 +43,7 @@ All installed dependencies are listed at the start of each individual notebooks.
 
 ## Contact
 
-Laboratory of Computational Systems Biology, KU Leuven.
+Computational Systems Biology, KU Leuven.
 
 ## References
 
