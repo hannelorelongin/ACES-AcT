@@ -8,7 +8,7 @@ This code was actively developed on GitLab, and the GitHub track record only cor
 
 1.  [Outline of the repository](#outline-of-the-repository)
 2.  [Data availability](#data-availability)
-3.  [System requirements & dependencies](#system-requirements-dependencies)
+3.  [System requirements & dependencies](#system-requirements-&-dependencies)
 4.  [Contact](#contact)
 5.  [References](#references)
 6.  [License](#license)
@@ -19,7 +19,7 @@ This code was actively developed on GitLab, and the GitHub track record only cor
     * `virushostdb_host_pseudomonas_25feb2024.tsv` : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
 * `pipeline/`
     * `1_search/` : describes the code related to the search for phage_encoded acetyltransferases
-        * `a_input/` & `Code_search_input.ipynb` : describes the process of retrieving input data related to the search for phage_encoded acetyltransferases
+        * `Code_search_input.ipynb` & `a_input/`: describes the process of retrieving input data related to the search for phage_encoded acetyltransferases
             * `protein_overview/`
                 * `protein_overview.tsv` : a tab-seperated aggregated overview of the NCBI proteins for all phages
                 * `annotated_acetyltransferases_overview.tsv` :  tab-seperated overview of the NCBI and UniProt proteins of our phages that contain 'GNAT' and/or 'acetyltransferase' in their protein name
