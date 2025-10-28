@@ -8,23 +8,25 @@ This code was actively developed on GitLab, and the GitHub track record only cor
 
 1.  [Outline of the repository](#outline-of-the-repository)
 2.  [Data availability](#data-availability)
-3.  [System requirements & dependencies](#system-requirements-&-dependencies)
+3.  [System requirements & dependencies](#system-requirements--dependencies)
 4.  [Contact](#contact)
 5.  [References](#references)
-6.  [License](#license)
+6.  [Acknowledgements](#acknowledgements)
+7.  [License](#license)
 
 ## Outline of the repository
 
+This section briefly describes the outline of the repository. For a more detailed overview (including all generated files), the 'Generates' section of individual code notebooks can be consulted.
+
+* `pipeline/`
+    * `1_search/` : describes the code related to the search for phage-encoded acetyltransferases
+        * `Code_search_input.ipynb` & `a_input/`: describes the process of retrieving input data related to the search for phage-encoded acetyltransferases
+        * `Code_search_assess_annotated.ipynb` & `b_assess_annotated/`: describes the process of assessing the likelihood of the annotated acetyltransferases to be functional acetyltransferases, based on their predicted protein structures
 * `associated_data/`
     * `virushostdb_host_pseudomonas_25feb2024.tsv` : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
-* `pipeline/`
-    * `1_search/` : describes the code related to the search for phage_encoded acetyltransferases
-        * `Code_search_input.ipynb` & `a_input/`: describes the process of retrieving input data related to the search for phage_encoded acetyltransferases
-            * `protein_overview/`
-                * `protein_overview.tsv` : a tab-seperated aggregated overview of the NCBI proteins for all phages
-                * `annotated_acetyltransferases_overview.tsv` :  tab-seperated overview of the NCBI and UniProt proteins of our phages that contain 'GNAT' and/or 'acetyltransferase' in their protein name
-                * `input_search.tsv` : a tab-seperated aggregated overview of the NCBI proteins that are unannotated and within the expected size range of acetyltransferases for all phages   
-            * `phage_data.tsv` :  a tab-seperated phage-centric overview of the virus & host taxonomic information from the Virus-Host database   
+* `templates/`
+    * `submit_vibfold.py`, `VIBFold.py`, `VIBFold_adapted_functions.py` and `submit.sh`: structure prediction template job files, adapted from [VIBFold](https://github.com/jasperzuallaert/VIBFold/tree/main)    
+    * `data_foldseek_5.csv` and `script_foldseek_5.slurm`: structure comparison template job files
 
 ## Data availability
 
@@ -51,12 +53,14 @@ Please cite our preprint:
 
 (to be added)
 
-In addition, this work relies on third-party software & databases:
+## Acknowledgements
 
-(to be added)
+In our pipeline, we adapted scripts from:
+
+* [VIBFold](https://github.com/jasperzuallaert/VIBFold/tree/main) by Zuallaert J., available under an [MIT License](https://github.com/jasperzuallaert/VIBFold/blob/main/LICENSE): scripts `VIBFold.py`, `submit_vibfold.py` & `VIBFold_adapted_functions.py` (located in `templates`).
 
 ## License
 
 This code is freely available under an MIT license. (to add once author list final)
 
-Use of the third-party software, libraries or code referred to in the References section above may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+Use of the third-party software, libraries or code referred to in the Acknowledgements section above may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
