@@ -8,3 +8,8 @@
 /pipeline/1_search/b_assess_annotated/structure_comparison/output_processed
 /pipeline/1_search/b_assess_annotated/investigate_early_starts/structure_prediction
 /pipeline/1_search/b_assess_annotated/investigate_early_starts/structure_comparison
+/pipeline/1_search/c_assess_unknown/proteins_cluster
+/pipeline/1_search/c_assess_unknown/structure_prediction
+/pipeline/1_search/c_assess_unknown/investigate_nans
+/pipeline/1_search/c_assess_unknown/structure_comparison
+/pipeline/1_search/.ipynb_checkpoints
