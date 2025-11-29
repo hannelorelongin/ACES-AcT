@@ -1,5 +1,7 @@
 *-checkpoint.ipynb
 *-checkpoint.tsv
+*-checkpoint.fasta
+*INTERNAL*
 /pipeline/1_search/a_input/protein_overview/*_protein_overview.tsv
 /pipeline/1_search/a_input/protein_overview/*_input_search.tsv
 /pipeline/1_search/b_assess_annotated/structure_prediction
@@ -12,4 +14,5 @@
 /pipeline/1_search/c_assess_unknown/structure_prediction
 /pipeline/1_search/c_assess_unknown/investigate_nans
 /pipeline/1_search/c_assess_unknown/structure_comparison
-/pipeline/1_search/.ipynb_checkpoints
+/pipeline/2_characterization/a_overview/structure_clustering
+
