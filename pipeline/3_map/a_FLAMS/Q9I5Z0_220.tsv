@@ -1,0 +1,7 @@
+Uniprot ID	Protein name	Modification	K location	K window	Species	BLAST E-value	BLAST identity	BLAST coverage	CPLM ID	CPLM evidence code	CPLM evidence links	dbPTM evidence code	dbPTM evidence links	SCOP3P evidence code	SCOP3P evidence links
+A0A4S4D137	TEA_006058	Acetylation	227	222-KYLDEKTIFHL-232	Camellia sinensis var. sinensis	1.23828e-124	52.31%	95.96%	CPLM075487	Exp.	30477445;29312376				
+A0A4S4ENG2	TEA_017172	Acetylation	227	222-KYLDEKTIFHL-232	Camellia sinensis var. sinensis	8.86117e-122	52.56%	95.96%	CPLM077641	Exp.	29312376;30477445				
+A0KMX3	metK	Acetylation	219	214-AEWVNKDTKYF-224	Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / DSM 30187 / JCM 1027 / KCTC 2358 / NCIMB 9240)	0.0	72.19%	98.74%	CPLM079748	Exp.	31448697				
+Q5DD04	not found	Acetylation	237	232-NLLDEKTKYHL-242	Schistosoma japonicum	3.89005e-127	50.00%	97.73%	CPLM033397	Exp.	27535354	Exp.	27535354		
+Q6CEM5	YALI0_B14509g	Acetylation	230	225-KLLDDKTVYHI-235	Yarrowia lipolytica (strain CLIB 122 / E 150)	5.22474e-133	55.76%	92.42%	CPLM039082	Exp.	28497289				
+Q9LDQ7	SAM	Acetylation	227	222-KYLDEKTIFHL-232	Camellia sinensis	1.6693199999999998e-123	52.82%	95.96%	CPLM059638	Exp.	30477445;29312376				

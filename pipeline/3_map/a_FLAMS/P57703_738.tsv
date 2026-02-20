@@ -1,0 +1,11 @@
+Uniprot ID	Protein name	Modification	K location	K window	Species	BLAST E-value	BLAST identity	BLAST coverage	CPLM ID	CPLM evidence code	CPLM evidence links	dbPTM evidence code	dbPTM evidence links	SCOP3P evidence code	SCOP3P evidence links
+A0A1D7TIQ1	SHALO_1087	Acetylation	709	704-PDCGLKTRGWS-714	Sulfurospirillum halorespirans DSM 13726	0.0	42.54%	99.22%	CPLM070768	Exp.	29617628				
+A4FIY7	metE	Acetylation	735	730-PDCGLKTRGYT-740	Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)	0.0	50.78%	98.83%	CPLM082770	Exp.	29887264				
+A4FN94	metE	Acetylation	736	731-PDCGLKTRGYA-741	Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)	0.0	50.20%	98.96%	CPLM082853	Exp.	29887264				
+J9VXF1	CNAG_01890	Acetylation	737	732-PDCGLKTRGWK-742	Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)	0.0	48.56%	98.83%	CPLM102855	Exp.	31069264				
+P05694	MET6	Acetylation	740	735-PDCGLKTRGWE-745	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	0.0	48.90%	99.22%	CPLM005285	Exp.	22865919;24489116;25381059	Exp.	24489116;22865919;25381059		
+P25665	metE	Acetylation	729	724-PDCGLKTRGWP-734	Escherichia coli (strain K12)	0.0	62.45%	98.96%	CPLM010302	Exp.	28254776;23830618;25518064	Exp.	23830618;25518064		
+P80877	metE	Acetylation	733	728-PDCGLKTRQQE-738	Bacillus subtilis (strain 168)	0.0	45.14%	98.69%	CPLM018952	Exp.	30467398				
+P82610	MET6	Acetylation	742	737-PDCGLKTRGWP-747	Candida albicans (strain SC5314 / ATCC MYA-2876)	0.0	48.58%	99.35%	CPLM018998	Exp.	31069264				
+Q8NRB3	metE	Acetylation	716	711-PDCGLKTRGWP-721	Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / BCRC 11384 / CCUG 27702 / LMG 3730 / NBRC 12168 / NCIMB 10025 / NRRL B-2784 / 534)	0.0	45.22%	98.30%				Exp.	26663479		
+Q8NRB3	metE	Acetylation	716	711-PDCGLKTRGWP-721	Corynebacterium glutamicum (strain ATCC 13032 / DSM 20300 / JCM 1318 / LMG 3730 / NCIMB 10025)	0.0	45.22%	98.30%	CPLM050397	Exp.	26663479				

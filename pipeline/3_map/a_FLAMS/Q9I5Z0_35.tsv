@@ -1,0 +1,5 @@
+Uniprot ID	Protein name	Modification	K location	K window	Species	BLAST E-value	BLAST identity	BLAST coverage	CPLM ID	CPLM evidence code	CPLM evidence links	dbPTM evidence code	dbPTM evidence links	SCOP3P evidence code	SCOP3P evidence links
+A0KMX3	metK	Acetylation	32	27-LDAILKQDTKA-37	Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / DSM 30187 / JCM 1027 / KCTC 2358 / NCIMB 9240)	0.0	72.19%	98.74%	CPLM079748	Exp.	31448697				
+P54419	metK	Acetylation	35	30-LDEILKKDPNA-40	Bacillus subtilis (strain 168)	1.3742799999999998e-169	59.35%	98.23%	CPLM016168	Exp.	30467398				
+Q02TL9	metK	Acetylation	35	30-DAIIAKDKYAR-40	Pseudomonas aeruginosa (strain UCBPP-PA14)	0.0	100.00%	100.00%	CPLM020869	Exp.	25900529	Exp.	25900529		
+S6FU67	metK	Acetylation	35	30-LDEILKNDPNA-40	Bacillus velezensis UCMB5033	8.713289999999999e-169	59.35%	98.23%	CPLM104565	Exp.	26822828				

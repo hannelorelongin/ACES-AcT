@@ -1,0 +1,4 @@
+Uniprot ID	Protein name	Modification	K location	K window	Species	BLAST E-value	BLAST identity	BLAST coverage	CPLM ID	CPLM evidence code	CPLM evidence links	dbPTM evidence code	dbPTM evidence links	SCOP3P evidence code	SCOP3P evidence links
+B8N9V1	AFLA_112470	Acetylation	313	308-WKTNFKAAIEK-318	Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / NRRL 3357 / JCM 12722 / SRRC 167)	0.0	49.29%	99.22%	CPLM086234	Exp.	28582408				
+J9VXF1	CNAG_01890	Acetylation	307	302-WKNDLKASKAL-312	Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)	0.0	48.56%	98.83%	CPLM102855	Exp.	31069264				
+Q4WNY2	AFUA_4G07360	Acetylation	313	308-WKTNFKAAIEK-318	Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)	0.0	50.06%	99.22%	CPLM029353	Exp.	31069264				

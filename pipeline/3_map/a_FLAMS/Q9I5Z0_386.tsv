@@ -1,0 +1,6 @@
+Uniprot ID	Protein name	Modification	K location	K window	Species	BLAST E-value	BLAST identity	BLAST coverage	CPLM ID	CPLM evidence code	CPLM evidence links	dbPTM evidence code	dbPTM evidence links	SCOP3P evidence code	SCOP3P evidence links
+A0KMX3	metK	Acetylation	373	368-WEQTDKAELLR-378	Aeromonas hydrophila subsp. hydrophila (strain ATCC 7966 / DSM 30187 / JCM 1027 / KCTC 2358 / NCIMB 9240)	0.0	72.19%	98.74%	CPLM079748	Exp.	31448697;31448697				
+P0A817	metK	Acetylation	373	368-WEKTDKAQLLR-378	Escherichia coli (strain K12)	0.0	72.89%	98.74%	CPLM006390	Exp.	23830618;24176774	Exp.	23830618;24176774		
+P72871	metK	Acetylation	409	404-WEYTDKVDVLK-414	Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa)	2.7002e-140	50.71%	99.24%				Exp.	25621733		
+P72871	metK	Acetylation	409	404-WEYTDKVDVLK-414	Synechocystis sp. (strain PCC 6803 / Kazusa)	2.7002e-140	50.71%	99.24%	CPLM018072	Exp.	25621733				
+Q5KW02	metK	Acetylation	389	384-WERTDKAALLK-394	Geobacillus kaustophilus (strain HTA426)	8.943179999999999e-173	59.75%	99.24%	CPLM034226	Exp.	23696451	Exp.	23696451		

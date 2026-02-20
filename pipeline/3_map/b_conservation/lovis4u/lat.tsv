@@ -1,0 +1,42 @@
+sequence_id	coordinates	circular	description	order	group
+NC_010326.1	1:14104:1	1	Pseudomonas phage LUZ19	0	1
+NC_005045.1	1:13677:1	1	Pseudomonas phage phiKMV	1	1
+MW117144.1	28281:39319:-1	1	Pseudomonas phage AIIMS-Pa-A1	2	1
+MW406976.1	1:14413:1	1	Pseudomonas phage HX1	3	1
+OL754589.1	1:13820:1	1	Pseudomonas phage L5	4	1
+NC_009935.1	1:14257:1	1	Pseudomonas phage LKD16	5	1
+NC_022091.1	1:14401:1	1	Pseudomonas phage MPK7	6	1
+MW406975.1	1:14459:1	1	Pseudomonas phage MYY9	7	1
+NC_047952.1	1:14342:1	1	Pseudomonas phage PAXYB1	8	1
+NC_012418.1	1:14009:1	1	Pseudomonas phage phikF77	9	1
+NC_047852.1	1:13736:1	1	Pseudomonas phage phiNFS	10	1
+OK539824.1	30270:42929:1	1	Pseudomonas phage phipa2	11	1
+OP292288.1	1:14116:1	1	Pseudomonas phage PNM	12	1
+NC_011107.1	1:14031:1	1	Pseudomonas phage PT2	13	1
+NC_011105.1	1:14042:1	1	Pseudomonas phage PT5	14	1
+NC_048168.1	30484:43122:1	1	Pseudomonas phage RLP	15	1
+LC727700.1	39387:42855:1,1:8929:1	1	Pseudomonas phage sp. LP	16	1
+OP556577.1	1:14001:1	1	Pseudomonas phage vB PaM SEMA	17	1
+MZ687409.1	1:14340:1	1	Pseudomonas phage vB_Pae_QDWS	18	1
+OL802210.1	1:13430:1	1	Pseudomonas phage vB_Pae_S1	19	1
+NC_017865.1	1:14043:1	1	Pseudomonas phage vB_Pae-TbilisiM32	20	1
+MZ553931.1	1:14588:1	1	Pseudomonas phage vB_PaeA_55_1W	21	1
+OR208619.1	1:9001:-1,39140:43114:-1	1	Pseudomonas phage vB_PaeA_SB	22	1
+ON857926.1	1:14448:1	1	Pseudomonas phage vB_PaeM_FBPa3	23	1
+NC_047953.1	1:14511:1	1	Pseudomonas phage vB_PaeP_130_113	24	1
+MN602045.1	3100:15406:-1	1	Pseudomonas phage vB_PaeP_ASP23	25	1
+ON857928.1	1:13151:1	1	Pseudomonas phage vB_PaeP_FBPa6	26	1
+ON857935.1	1:13875:1	1	Pseudomonas phage vB_PaeP_FBPa25	27	1
+MN692672.2	18066:30372:1	1	Pseudomonas phage vB_PaeP_Lx18	28	1
+OQ230793.1	1:13541:1	1	Pseudomonas phage vB_PaeP_P1G	29	1
+NC_026602.1	1:14720:1	1	Pseudomonas phage vB_PaeP_PAO1_Ab05	30	1
+NC_047967.1	1:14043:1	1	Pseudomonas phage vB_PaeP_PAO1_1-15pyo	31	1
+MN901924.1	1:14069:1	1	Pseudomonas phage vB_PaeP_PE3	32	1
+NC_027375.1	1:14298:1	1	Pseudomonas phage vB_PaeP_PPA-ABTNL	33	1
+MN615698.1	1:14213:1	1	Pseudomonas phage vB_PaeP_SPCB	34	1
+MN615699.1	1:14154:1	1	Pseudomonas phage vB_PaeP_SPCG	35	1
+OQ319930.1	22447:34823:1	1	Pseudomonas phage 20Aug401	36	1
+NC_028836.1	1:13976:1	1	Pseudomonas phage DL62	37	1
+OQ412633.1	1:14393:1	1	Pseudomonas phage JB10	38	1
+NC_022746.1	1:14414:1	1	Pseudomonas phage MPK6	39	1
+ON857933.1	1:14860:1	1	Pseudomonas phage vB_PaeP_FBPa18	40	1
