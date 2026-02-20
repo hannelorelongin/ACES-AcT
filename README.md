@@ -22,11 +22,11 @@ This section briefly describes the outline of the repository. For a more detaile
         * `Code_search_assess_annotated.ipynb` & `b_assess_annotated/`: describes the process of assessing the likelihood of the annotated acetyltransferases to be functional acetyltransferases, based on their predicted protein structures
         * `Code_search_assess_unknown.ipynb` & `c_assess_unknown/`: describes the process of assessing the likelihood of the phage proteins of unknown function to be functional acetyltransferases, based on their predicted protein structures
     * `2_characterization/` : describes the code related to the characterization of the predicted phage-encoded acetyltransferases  
-    * `3_Map` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
-        * `Code_Map_FLAMS.ipynb` & `a_FLAMS`: describe the PTM conservation analysis of Map-targeted sites
-        * `Code_Map_conservation.ipynb` & `b_conservation`: describe the analysis of the conservation of Map across the *Phikmvvirus* genus
-        * `Code_Map_invivo.ipynb` & `c_invivo_analysis`: describe the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains  
-        * `methylation_analysis`: contains all code related to the methylome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains, as performed by [@LucoDevro](https://github.com/LucoDevro)   
+    * `3_Map/` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
+        * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describe the PTM conservation analysis of Map-targeted sites
+        * `Code_Map_conservation.ipynb` & `b_conservation/`: describe the analysis of the conservation of Map across the *Phikmvvirus* genus
+        * `Code_Map_invivo.ipynb` & `c_invivo_analysis/`: describe the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains  
+        * `methylation_analysis/`: contains all code related to the methylome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains, as performed by [@LucoDevro](https://github.com/LucoDevro)   
 * `associated_data/`
     * `virushostdb_host_pseudomonas_25feb2024.tsv` : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
     * `list_obsolete_PDB_ids_15jul2024.txt`, `dict_pdb_PDBidch_UniProtID_jul2024.csv`, `dict_pdb_UniProtID_NCBIuid_jul2024.csv` : information obtained from the PDB (July, 2024) detailing obsolete PDB identifiers, and cross-references between PDB and UniProt
