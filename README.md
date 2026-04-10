@@ -21,6 +21,7 @@ This section briefly describes the outline of the repository. For a more detaile
         * `Code_search_input.ipynb` & `a_input/`: describes the process of retrieving input data related to the search for phage-encoded acetyltransferases
         * `Code_search_assess_annotated.ipynb` & `b_assess_annotated/`: describes the process of assessing the likelihood of the annotated acetyltransferases to be functional acetyltransferases, based on their predicted protein structures
         * `Code_search_assess_unknown.ipynb` & `c_assess_unknown/`: describes the process of assessing the likelihood of the phage proteins of unknown function to be functional acetyltransferases, based on their predicted protein structures
+        * `Code_modelarchive.ipynb` & `modelarchive`: describes the process of preparing the protein structure prediction results for deposition in ModelArchive.
     * `2_characterization/` : describes the code related to the characterization of the predicted phage-encoded acetyltransferases  
     * `3_Map/` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
         * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describe the PTM conservation analysis of Map-targeted sites
