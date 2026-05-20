@@ -1,6 +1,6 @@
 # ACES-AcT
 
-This repository contains all code related to the preprint (insert title here) describing the systematic identification of phage-encoded acetyltransferases in *Pseudomonas* phages, including the complete elucidation of one of the identified phage-encoded acetyltransferases. 
+This repository contains all code related to the manuscript "Map, a phage-encoded acetyltransferase, targets the S-adenosylmethionine biosynthesis hub in *Pseudomonas aeruginosa*" describing the systematic identification of phage-encoded acetyltransferases in *Pseudomonas* phages, including the complete elucidation of one of the identified phage-encoded acetyltransferases. 
 
 # Table of contents
 
@@ -23,6 +23,8 @@ This section briefly describes the outline of the repository. For a more detaile
         * `Code_search_assess_unknown.ipynb` & `c_assess_unknown/`: describes the process of assessing the likelihood of the phage proteins of unknown function to be functional acetyltransferases, based on their predicted protein structures
         * `Code_modelarchive.ipynb` & `modelarchive`: describes the process of preparing the protein structure prediction results for deposition in ModelArchive.
     * `2_characterization/` : describes the code related to the characterization of the predicted phage-encoded acetyltransferases  
+        * `Code_characterization_overview.ipynb` & `a_overview/`: describe the general characterization of the predicted phage-encoded acetyltransferases
+        * `Code_characterization_growth.ipynb` & `b_growth/`: describe the visualization of the liquid growth assays comparing *P. aeruginosa* PAO1 strains expressing selected predicted phage-encoded acetyltransferases and non-induced controls 
     * `3_Map/` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
         * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describe the PTM conservation analysis of Map-targeted sites
         * `Code_Map_conservation.ipynb` & `b_conservation/`: describe the analysis of the conservation of Map across the *Phikmvvirus* genus
@@ -38,10 +40,10 @@ This section briefly describes the outline of the repository. For a more detaile
 
 ## Data availability
 
-The data related to this work can be found at:
+Whenever possible, the data generated in this study has been deposited to the relevant databases, including:
 
-* ColabFold structure predictions (to be added - ModelArchive)
-* proteomics (to be added - ProteomeXchange)
+* [ModelArchive](https://modelarchive.org/doi/10.5452/ma-csb-act), which contains the predicted phage protein structures generated in this study.
+* [PRIDE](https://www.ebi.ac.uk/pride/archive/projects/PXD051454), which  contains the LC-MS/MS based acetylomics data generated in this study.
 * metabolomics (to be added - MetaboLights?)
 * full in- and output of this repo (to be added - Zenodo)
 

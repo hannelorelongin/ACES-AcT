@@ -14,13 +14,14 @@
 /pipeline/1_search/c_assess_unknown/structure_prediction
 /pipeline/1_search/c_assess_unknown/investigate_nans
 /pipeline/1_search/c_assess_unknown/structure_comparison
+/pipeline/1_search/modelarchive
+/pipeline/1_search/modelarchive.zip
 /pipeline/2_characterization/a_overview/structure_clustering
-
+/pipeline/2_characterization/*/*.svg
 /pipeline/3_map/a_FLAMS/data
 /pipeline/3_map/b_conservation/align
 /pipeline/3_map/b_conservation/compare
 /pipeline/3_map/b_conservation/lovis4u/full_genomes
 /pipeline/3_map/b_conservation/lovis4u/gb
 /pipeline/3_map/b_conservation/lovis4u/map_region
-/pipeline/1_search/modelarchive
-pipeline/1_search/modelarchive.zip
+
