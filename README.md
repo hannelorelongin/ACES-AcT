@@ -28,7 +28,9 @@ This section briefly describes the outline of the repository. For a more detaile
     * `3_Map/` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
         * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describe the PTM conservation analysis of Map-targeted sites
         * `Code_Map_conservation.ipynb` & `b_conservation/`: describe the analysis of the conservation of Map across the *Phikmvvirus* genus
-        * `Code_Map_invivo.ipynb` & `c_invivo_analysis/`: describe the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains  
+        * `Code_Map_invivo.ipynb` & `c_invivo_analysis/`: describe the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains 
+        * `Code_Map_MetK.ipynb` & `d_MetK/`: describe the visualization of the Ames & Dubin experiment comparing the enzymatic activity of different MetK variants
+        * `Code_Map_transcriptomics.ipynb` & `transcriptomics_analysis/`: describe the reanalysis of LUZ19 infection transcriptomics to assess the extent and timing of *map* transcription
         * `methylation_analysis/`: contains all code related to the methylome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains, as performed by [@LucoDevro](https://github.com/LucoDevro)   
 * `associated_data/`
     * `virushostdb_host_pseudomonas_25feb2024.tsv` : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
@@ -68,6 +70,7 @@ Please cite our preprint:
 In our pipeline, we adapted scripts from:
 
 * [VIBFold](https://github.com/jasperzuallaert/VIBFold/tree/main) by Zuallaert J., available under an [MIT License](https://github.com/jasperzuallaert/VIBFold/blob/main/LICENSE): scripts `VIBFold.py`, `submit_vibfold.py` & `VIBFold_adapted_functions.py` (located in `templates`).
+* [Phage host dual transcriptomics](https://github.com/Integrative-Transcriptomics/phage_host_dual_transcriptomics) by Wolfram-Schauerte M.: script `tools.py`, the analysis code in the notebook `Code_Map_transcriptomics.ipynb` (located in `pipeline/3_map`)
 
 ## License
 

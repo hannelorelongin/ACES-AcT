@@ -1,6 +1,7 @@
 *-checkpoint.ipynb
 *-checkpoint.tsv
 *-checkpoint.fasta
+*.pyc
 *INTERNAL*
 /pipeline/1_search/a_input/protein_overview/*_protein_overview.tsv
 /pipeline/1_search/a_input/protein_overview/*_input_search.tsv
@@ -24,4 +25,6 @@
 /pipeline/3_map/b_conservation/lovis4u/full_genomes
 /pipeline/3_map/b_conservation/lovis4u/gb
 /pipeline/3_map/b_conservation/lovis4u/map_region
-
+/pipeline/3_map/d_MetK/*.svg
+/pipeline/3_map/transcriptomics_analysis/input/sra_fetch.slurm
+/pipeline/3_map/transcriptomics_analysis/txome_pipeline.slurm
