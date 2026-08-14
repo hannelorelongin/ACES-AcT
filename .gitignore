@@ -28,3 +28,7 @@
 /pipeline/3_map/d_MetK/*.svg
 /pipeline/3_map/transcriptomics_analysis/input/sra_fetch.slurm
 /pipeline/3_map/transcriptomics_analysis/txome_pipeline.slurm
+pipeline/3_map/transcriptomics_analysis/output/alignments/SRR*_sorted.bam*
+pipeline/3_map/transcriptomics_analysis/output/alignments/SRR*.hisat2.summary.log
+/pipeline/3_map/transcriptomics_analysis/output/cutadapt
+/pipeline/3_map/transcriptomics_analysis/output/fastQC
