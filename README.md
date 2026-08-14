@@ -1,6 +1,6 @@
 # ACES-AcT
 
-This repository contains all code related to the manuscript "Map, a phage-encoded acetyltransferase, targets the S-adenosylmethionine biosynthesis hub in *Pseudomonas aeruginosa*" describing the systematic identification of phage-encoded acetyltransferases in *Pseudomonas* phages, including the complete elucidation of one of the identified phage-encoded acetyltransferases. 
+This repository contains all code related to the manuscript "Map, a phage-encoded acetyltransferase, targets the S-adenosylmethionine biosynthesis hub in *Pseudomonas aeruginosa*" describing the systematic identification of phage-encoded acetyltransferases in *Pseudomonas* phages, including the in-depth characterization of one of the identified phage-encoded acetyltransferases. 
 
 # Table of contents
 
@@ -23,14 +23,14 @@ This section briefly describes the outline of the repository. For a more detaile
         * `Code_search_assess_unknown.ipynb` & `c_assess_unknown/`: describes the process of assessing the likelihood of the phage proteins of unknown function to be functional acetyltransferases, based on their predicted protein structures
         * `Code_modelarchive.ipynb` & `modelarchive`: describes the process of preparing the protein structure prediction results for deposition in ModelArchive.
     * `2_characterization/` : describes the code related to the characterization of the predicted phage-encoded acetyltransferases  
-        * `Code_characterization_overview.ipynb` & `a_overview/`: describe the general characterization of the predicted phage-encoded acetyltransferases
-        * `Code_characterization_growth.ipynb` & `b_growth/`: describe the visualization of the liquid growth assays comparing *P. aeruginosa* PAO1 strains expressing selected predicted phage-encoded acetyltransferases and non-induced controls 
+        * `Code_characterization_overview.ipynb` & `a_overview/`: describes the general characterization of the predicted phage-encoded acetyltransferases
+        * `Code_characterization_growth.ipynb` & `b_growth/`: describes the visualization of the liquid growth assays comparing *P. aeruginosa* PAO1 strains expressing selected predicted phage-encoded acetyltransferases and non-induced controls 
     * `3_Map/` : describes the characterization of one of the phage-encoded acetyltransferases, renamed Map
-        * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describe the PTM conservation analysis of Map-targeted sites
-        * `Code_Map_conservation.ipynb` & `b_conservation/`: describe the analysis of the conservation of Map across the *Phikmvvirus* genus
-        * `Code_Map_invivo.ipynb` & `c_invivo_analysis/`: describe the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains 
-        * `Code_Map_MetK.ipynb` & `d_MetK/`: describe the visualization of the Ames & Dubin experiment comparing the enzymatic activity of different MetK variants
-        * `Code_Map_transcriptomics.ipynb` & `transcriptomics_analysis/`: describe the reanalysis of LUZ19 infection transcriptomics to assess the extent and timing of *map* transcription
+        * `Code_Map_FLAMS.ipynb` & `a_FLAMS/`: describes the PTM conservation analysis of Map-targeted sites
+        * `Code_Map_conservation.ipynb` & `b_conservation/`: describes the analysis of the conservation of Map across the *Phikmvvirus* genus
+        * `Code_Map_invivo.ipynb` & `c_invivo_analysis/`: describes the visualization of the metabolome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains 
+        * `Code_Map_MetK.ipynb` & `d_MetK/`: describes the visualization of the Ames & Dubin experiment comparing the enzymatic activity of different MetK variants
+        * `Code_Map_transcriptomics.ipynb` & `transcriptomics_analysis/`: describes the reanalysis of LUZ19 infection transcriptomics to assess the extent and timing of *map* transcription
         * `methylation_analysis/`: contains all code related to the methylome analysis comparing Map-expressing versus control *P. aeruginosa* PAO1 strains, as performed by [@LucoDevro](https://github.com/LucoDevro)   
 * `associated_data/`
     * `virushostdb_host_pseudomonas_25feb2024.tsv` : results of search for 'Pseudomonas' as host in the Virus-Host database (version: February 25th, 2024)
@@ -46,7 +46,7 @@ Whenever possible, the data generated in this study has been deposited to the re
 
 * [ModelArchive](https://modelarchive.org/doi/10.5452/ma-csb-act), which contains the predicted phage protein structures generated in this study.
 * [PRIDE](https://www.ebi.ac.uk/pride/archive/projects/PXD051454), which  contains the LC-MS/MS based acetylomics data generated in this study.
-* metabolomics (to be added - MetaboLights?)
+* metabolomics (to be added?)
 * full in- and output of this repo (to be added - Zenodo)
 
 ## System requirements & dependencies
@@ -74,6 +74,6 @@ In our pipeline, we adapted scripts from:
 
 ## License
 
-This code is freely available under an MIT license. (to add once author list final)
+This code is freely available under an MIT license.
 
 Use of the third-party software, libraries or code referred to in the Acknowledgements section above may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
